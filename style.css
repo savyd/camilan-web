@@ -1,0 +1,51 @@
+#frame-image {
+    /* width: 380px; */
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+#frame-logo {
+    height: 5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+@media (max-width: 480px) {
+    #frame-image {
+        /* width: 380px; */
+        height: 60px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .content a {
+        font-size: 1rem;
+    }
+}
+
+#margin-top {
+    margin-top: 30px;
+}
+
+#border-radius-50 {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#content {
+    min-height: 100px;
+}
+
+.ui.grid {
+    padding: 0 !important;
+}
+
+.pushable.segment {
+    margin: 0 !important;
+}
+
+li, h1, p {
+    list-style-type: none;
+    text-align: left;
+}
