@@ -1,5 +1,1 @@
----
-Create Web 
----
 
-# Semantic UI
